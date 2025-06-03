@@ -19,10 +19,10 @@ export function createGallery(images) {
         />
       </a>
       <ul class="meta">
-        <li>Likes: ${img.likes}</li>
-        <li>Views: ${img.views}</li>
-        <li>Comments: ${img.comments}</li>
-        <li>Downloads: ${img.downloads}</li>
+        <li>Likes: <span>${img.likes}</span></li>
+        <li>Views: <span>${img.views}</span></li>
+        <li>Comments: <span>${img.comments}</span></li>
+        <li>Downloads: <span>${img.downloads}</span></li>
       </ul>
     </li>
   `).join('');
